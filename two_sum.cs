@@ -11,8 +11,7 @@ public class Solution
                 if (nums[i] + nums[j] != target)
                     continue;
                 else 
-                    break;
-                Console.Write($"{i}{j}");
+                    Console.Write($"{i}{j}");
             }
             Console.WriteLine();
         }
