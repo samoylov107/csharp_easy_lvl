@@ -2,7 +2,7 @@
 
 public class Solution 
 {
-    public int[] TwoSum(int[] nums = {2,7,11,15}, int target = 9) 
+    public int[] TwoSum(int[] nums, int target) 
     {
         for (int i = 0; i < nums.Length; i++)
         {
@@ -12,7 +12,7 @@ public class Solution
                     continue;
                 else 
                     break;
-                Console.Write($"{nums[i, j]}");
+                Console.Write($"{nums[i]}{nums[j]}");
             }
             Console.WriteLine();
         }
