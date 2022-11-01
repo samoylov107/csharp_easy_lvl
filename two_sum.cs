@@ -8,10 +8,8 @@ public class Solution
         {
             for (int j = 0; j < nums.Length; j++)
             {
-                if (nums[i] + nums[j] != target)
-                    continue;
-                else 
-                    return i, j;
+                if (nums[i] + nums[j] == target)
+                   Console.Write($"{i}{j}");
             }
             Console.WriteLine();
         }
