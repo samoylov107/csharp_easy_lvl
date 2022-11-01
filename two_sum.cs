@@ -12,7 +12,7 @@ public class Solution
                     continue;
                 else 
                     break;
-                Console.Write($"{nums[i]}{nums[j]}");
+                Console.Write($"{i}{j}");
             }
             Console.WriteLine();
         }
