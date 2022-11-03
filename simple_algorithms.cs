@@ -93,3 +93,31 @@ for (int circles = b; a <= circles; circles--)
 }	
 
 Console.WriteLine($"Количество високосных лет на отрезке от {a} до {b}: {increment}.");
+
+
+/* Expr5. 
+Найти количество високосных лет на отрезке [a, b] не используя циклы. */
+
+Console.Write("Найти количество високосных лет на отрезке.\nУкажите год начала отсчёта: ");
+int a = Convert.ToInt32(Console.ReadLine());
+Console.Write("Укажите год завершения отсчёта: ");
+int b = Convert.ToInt32(Console.ReadLine());
+int qty = 0;
+
+if (b - a == 1)
+{
+	qty = ((a % 4 == 0) || (b % 4 == 0)) ? 1 : 0;
+}
+else if (b - a == 2)
+{
+	qty = ((a % 4 == 0) || (b % 4 == 0) || ((b - 1) % 4 == 0)) ? 1 : 0;
+}	
+else if (b - a == 3)
+{
+	qty = 1;
+}
+else if (b - a >= 4)
+{
+	qty = 
+}
+Console.WriteLine($"Количество високосных лет на отрезке от {a} до {b}: {qty}.");
