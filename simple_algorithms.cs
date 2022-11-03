@@ -1,3 +1,5 @@
+https://ulearn.me/course/basicprogramming/Zadachi_na_seminar_aef25d82-818b-4a50-a2f0-bba842eeeedc
+
 /* Expr1. 
 Как поменять местами значения двух переменных? 
 Можно ли это сделать без ещё одной временной переменной. 
