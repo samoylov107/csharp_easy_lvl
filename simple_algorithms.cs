@@ -118,6 +118,9 @@ else if (b - a == 3)
 }
 else if (b - a >= 4)
 {
-	qty = 
+	qty += (a % 4 == 0) ? 1 : 0;
+        qty += (b % 4 == 0) ? 1 : 0;
+        qty += (qty == 2) ? ((b - 1) - (a + 1)) / 4 : (b - a) / 4; 
 }
 Console.WriteLine($"Количество високосных лет на отрезке от {a} до {b}: {qty}.");
+Console.ReadKey();
